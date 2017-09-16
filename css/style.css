@@ -5,6 +5,40 @@
 --redcolor: #d23333;
 }
 
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+
+}
+
+a:hover {
+	text-decoration: none;
+}
 .cover {
 	background-image: url(img/cover01.jpg);
-} 
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.jumbotron {
+	background-color: var(--bluecolor);
+	text-align: center;
+}
+
+.cover h1, .cover h2 {
+	color: white;
+}
+
+.section-n {
+	margin: 50px 0;
+}
+
+.section-n span {
+	background-color: var(--pinkcolor);
+	color: white;
+	padding: 5px;
+}
+
